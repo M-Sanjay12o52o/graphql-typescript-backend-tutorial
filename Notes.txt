@@ -1,0 +1,4 @@
+https://www.howtographql.com/typescript-apollo/1-getting-started/
+
+Scalar types are the most basic types in a GraphQL schema, with no sub-fields of their own. They are similar to the primitive types in programming languages. GraphQL comes with a 5 default scalar types out of the box: Int, Float, String, Boolean and ID. It’s also possible to define or import new custom scalar types, based on your application needs. This is something you will learn more about later in the tutorial.
+
