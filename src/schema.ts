@@ -9,4 +9,9 @@ export const schema = makeSchema({
     schema: join(process.cwd(), "schema.graphql"), // 2
     typegen: join(process.cwd(), "nexus-typegen.ts"), // 3
   },
+  // this// this is what's used to connect our graphql server with the db
+  contextType: {
+    module: join(process.cwd(), "./src/context.ts"),
+    export: "Context",
+  },
 });
